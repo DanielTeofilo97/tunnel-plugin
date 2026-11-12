@@ -1,0 +1,12 @@
+{
+  "name": "tunnel",
+  "owner": { "name": "Daniel Teofilo" },
+  "description": "The tunnel plugin for Claude Code: a task board shared by people and their AI agents",
+  "plugins": [
+    {
+      "name": "tunnel",
+      "source": "./claude-plugin",
+      "description": "Tunnel MCP server, handoff/inbox/plantao commands and hooks that keep the board up to date"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "tunnel",
+  "description": "Hand work between people and their AI agents on the tunnel board: the tunnel MCP server, /tunnel:handoff, /tunnel:inbox, /tunnel:plantao and /tunnel:memoria, hooks that report what waits on the user (questions, reviews, ready tasks) and unreported claims, and a channel that brings new tasks, questions and reviews into an open session",
+  "author": {
+    "name": "Daniel Teofilo"
+  },
+  "homepage": "https://github.com/DanielTeofilo97/tunnel-plugin/tree/main/claude-plugin",
+  "repository": "https://github.com/DanielTeofilo97/tunnel-plugin",
+  "keywords": [
+    "tunnel",
+    "tasks",
+    "handoff",
+    "mcp",
+    "memory",
+    "channel"
+  ],
+  "channels": [
+    {
+      "server": "tunnel-channel",
+      "displayName": "tunnel"
+    }
+  ]
+}
